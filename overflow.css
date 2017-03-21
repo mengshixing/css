@@ -53,3 +53,15 @@ background:rgba(255,0,0,0.4);
 :corner-present  用于所有滚动条轨道，指示滚动条圆角是否显示。
 
 :window-inactive 用于所有的滚动条轨道，指示应用滚动条的某个页面容器(元素)是否当前被激活。(在webkit最近的版本中，该伪类也可以用于::selection伪元素。webkit团队有计划扩展它并推动成为一个标准的伪类)
+
+四：ie的情况
+
+    scrollbar-arrow-color: color; /*三角箭头的颜色*/
+    scrollbar-face-color: color; /*立体滚动条的颜色（包括箭头部分的背景色）*/
+    scrollbar-3dlight-color: color; /*立体滚动条亮边的颜色*/
+    scrollbar-highlight-color: color; /*滚动条的高亮颜色（左阴影？）*/
+    scrollbar-shadow-color: color; /*立体滚动条阴影的颜色*/
+    scrollbar-darkshadow-color: color; /*立体滚动条外阴影的颜色*/
+    scrollbar-track-color: color; /*立体滚动条背景颜色*/
+    scrollbar-base-color:color; /*滚动条的基色*/
+
