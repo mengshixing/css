@@ -1,0 +1,2 @@
+1 让span等元素有height属性/让多个div元素行内显示/并成一行 display: inline-block;
+2 行内元素margin,padding为0设置紧挨着可用浮动 float:left
