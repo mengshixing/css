@@ -3,3 +3,5 @@
 2 行内元素margin,padding为0设置紧挨着可用浮动 float:left
 
 3 div内div有很多子元素,想要水平居中可以设置 display:table和margin: 0px auto;组合
+
+4 去掉浮动下划线,text-decoration:none
