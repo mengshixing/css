@@ -5,3 +5,8 @@
 3 div内div有很多子元素,想要水平居中可以设置 display:table和margin: 0px auto;组合
 
 4 去掉浮动下划线,text-decoration:none
+
+5 chrome兼容10px的字体(默认最小12px):主要用缩放0.8倍实现,但是背景元素也会缩放
+    body,p{ margin:0; padding:0}
+    p{font-size:10px;}
+    span{-webkit-transform:scale(0.8);-o-transform:scale(1); display:inline-block}
