@@ -12,3 +12,6 @@
     span{-webkit-transform:scale(0.8);-o-transform:scale(1); display:inline-block}
     
 6 背景图片拉伸铺满固定宽高 background-size:100% 100%;-moz-background-size:100% 100%;
+
+7 ztree宽度自适应,position:absolute;width:auto即可
+
