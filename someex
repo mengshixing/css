@@ -17,5 +17,13 @@
 
 8 常见的左右布局,左侧可以绝对定位一个宽度,右边区域使用margin-left加上相对定位来偏移可以实现同行的效果    
 
-9 calc()方法写样式,支持加减乘除四则运算,可用于响应式布局。width:calc(33.3333% - (10px + 5px) * 2 - 15px )
+9 calc()方法写样式,支持加减乘除四则运算,可用于响应式布局。width:calc(33.3333% - (10px + 5px) * 2 - 15px )    
 
+10 Jquery元素.prevAll('.select')可以选择同胞元素向前第一个匹配的元素    
+
+11 table元素中colspan和rowspan可以合并单元格并通过vertical-align: middle;垂直居中   
+
+12 弹窗div蒙版常常需要position:fixed来占满屏幕,此时弹窗如果需要滚动条可以通过禁用body滚动条来优化   
+$('body').css('overflow','hidden');   
+$('.dialog').css('overflow','auto');   
+ 
