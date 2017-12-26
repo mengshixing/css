@@ -25,5 +25,10 @@
 
 12 弹窗div蒙版常常需要position:fixed来占满屏幕,此时弹窗如果需要滚动条可以通过禁用body滚动条来优化   
 $('body').css('overflow','hidden');   
-$('.dialog').css('overflow','auto');   
+$('.dialog').css('overflow','auto');     
+
+13 Ztree的树枝开闭时左侧自定义的‘+’‘-’号图标可能会错误的问题：  
+修改右侧a标签Vertical-align属性为middle即可。（display:inline-block情况下保证图片和span都是垂直居中）
+
+
  
