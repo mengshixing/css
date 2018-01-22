@@ -28,7 +28,9 @@ $('body').css('overflow','hidden');
 $('.dialog').css('overflow','auto');     
 
 13 Ztree的树枝开闭时左侧自定义的‘+’‘-’号图标可能会错误的问题：  
-修改右侧a标签Vertical-align属性为middle即可。（display:inline-block情况下保证图片和span都是垂直居中）
+修改右侧a标签Vertical-align属性为middle即可。（display:inline-block情况下保证图片和span都是垂直居中）  
+
+14 display:inline-block可以处理一个区域内多个文字span自动换行切不会断文字的问题（不会出现一个span换2行）
 
 
  
