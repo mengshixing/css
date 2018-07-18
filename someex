@@ -32,5 +32,7 @@ $('.dialog').css('overflow','auto');
 
 14 display:inline-block可以处理一个区域内多个文字span自动换行切不会断文字的问题（不会出现一个span换2行）
 
+15  <pre></pre>标签展示输入的textarea等内容可以保留空格换行符
+
 
  
