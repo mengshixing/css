@@ -35,5 +35,7 @@ $('.dialog').css('overflow','auto');
 15  <pre></pre>标签展示输入的textarea等内容可以保留空格换行符,但是使用时必须是<pre>sx</pre>不能有换行
 另外在css文件中配置white-space: pre-wrap;word-wrap: break-word;可以保留空白符换行符序列，并正常地进行换行。
 
+16 在手机页面获取屏幕高度时，尽量使用window.innerHeight，以最大的范围兼容各种浏览器
+
 
  
